@@ -1,0 +1,12 @@
+@charset "utf-8";
+header{overflow: hidden;}
+video{margin-top:4rem;}
+.link--urpi::before {
+    -webkit-clip-path: url(#cp_up); 
+    clip-path: url(#cp_up);
+}
+
+.link--urpi::after {
+    -webkit-clip-path: url(#cp_down); 
+    clip-path: url(#cp_down);
+}

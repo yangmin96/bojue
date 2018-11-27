@@ -1,0 +1,51 @@
+@charset "utf-8";
+aside #aside{width:5rem;height:4rem;position:fixed;right: 0;top: 30rem;z-index: 100;}
+aside #aside img{width: 100%;}
+main #banner{width: 100%;height: 10rem;position: relative;padding-top: 4rem;}
+#banner img{display: none;width: 100%;}
+#banner img.on{display: block;}
+#banner #flag li.on{background: #000;}
+#banner #flag li{float: left;margin-right:0.5rem;width:0.5rem;height:0.5rem;border:1px solid #ccc;border-radius: 50%;background: #fff;text-align: center; }
+#banner #flag{position: absolute;bottom:0.5rem;left:35%;}
+#city{width: 100%;height:6rem;margin-top:1.5rem;}
+#city .city{width: 100%;height: 100%;overflow-x: scroll;white-space: nowrap;overflow-y:hidden;}
+.city::-webkit-scrollbar{display: none;}
+#city .city li{width: 20%;display: inline-block;height: 80%;}
+#city .city li img{width: 75%;margin-bottom:1.5rem;}
+#city .city li span{margin-left: -3.2rem;font-size:0.8rem;}
+main #video{width: 100%;height: 12rem;margin-top:1rem;}
+main #video video{width: 100%;height: 100%;}
+main .v2{width: 100%;height:3rem;}
+main .v2 img{width: 100%;}
+main #pic{width: 90%;height: 25rem;margin-left:5%;margin-top:2rem; }
+main #pic .code-left{width: 45%;height: 45%;display: inline-block;margin-right:1.6rem;}
+main #pic .code-left img{width:100%;margin-left:-6.5rem;margin-top:-1.7rem;margin-bottom: 1rem;}
+main #pic .code-left2{width: 45%;height: 45%;display: inline-block;} 
+main #pic .code-left2 img{width:100%;margin-left:-6.5rem;margin-top:-1.7rem;margin-bottom: 1rem;}
+main #pic .code-left3{width:30%;height: 45%;display: inline-block;}
+main #pic .code-left3 img{width:100%;margin-left:-6.5rem;margin-top:-1.7rem;margin-bottom: 1rem;}
+main #pic .code-left4{width:60%;height: 45%;display: inline-block;float: right;}
+main #pic .code-left4 img{width: 100%;margin-left:-6.5rem;margin-top:-1.7rem;margin-bottom: 1rem;} 
+main #pic .code-left span{color: #000;font-size:0.9rem;margin-left:-4rem; }
+main #pic .code-left2 span{color: #000;font-size:0.9rem;margin-left:-3rem; }
+main #pic .code-left3 span{color: #000;font-size:0.9rem;margin-left:-6rem; }
+main #pic .code-left4 span{color: #000;font-size:0.9rem;margin-left:-1rem; }
+main .baojia{width: 100%;height: 5rem;margin-top:1rem;}
+main .baojia img{width: 100%;}
+main .da{width: 100%;height: 16rem;margin-top:1rem;}
+main .da img{width: 100%;}
+main #login{width: 90%;height: 16rem;margin-left: 5%;border-bottom: 1px solid #B7B9BA;border-top: 1px solid #B7B9BA;margin-top:3rem;}
+main #login .new{width: 40%;height: 2rem;background: #fff;margin-top:-1rem;margin-left: 6rem;text-align: center;line-height: 2rem;font-weight:bold;font-size:1.2rem;}
+main #login form{width: 100%;height: 13rem;margin-top: 1rem;}
+main #login form .name{width: 100%;height: 2.5rem;border: 1px solid #000;
+outline: none;margin-bottom: 0.5rem;text-align: center;}
+main #login form .tel{width: 58%;height: 2.5rem;border:1px solid #000;margin-right: 1.2rem; text-align: center;}
+main #login form .code{width: 34%;height: 2.7rem;background: #D7D7D7;border: none;font-size: 1rem;outline: none;}
+main #login form .submit{width: 100%;background: #000;height: 2.5rem;margin-top:
+1rem;color: #fff;font-size: 1.2rem;}
+h4{margin-left: 5%;}
+h1{margin-left: 5%;font-size: 2.5rem;margin-bottom:4rem; }
+#Ospan{display: none;font-size:0.1rem;}
+#Ospan2{display: none;font-size:0.1rem;}
+
+
