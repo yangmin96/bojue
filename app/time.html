@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="dist/aos.css" />
     <link rel="stylesheet" href="css/demo.css" />
     <link rel="stylesheet" href="css/default.css" />
-    <script src="js/time.js"></script>
     <script src="js/index.js"></script>
+    <script type="text/javascript" src="js/jquery.1.4.2-min.js"></script>
 </head>
 <body>
     <header>
@@ -70,28 +70,72 @@
                 <div class="grid__item color-2">
                     <a class="link link--surinami">
                         <span data-letters-l="知名" data-letters-r="摄影师">
-                            <span class="chen" > 李东田是谁?</span>
+                            <span class="chen" > 李东田是谁?(点图看看)</span>
                        </span>
                     </a>
                 </div>
             </div>
-            <!-- <div class="jc-animation">
-                <img src="images/li.jpg" />
-            </div> -->
-           <div class="pic1">
-               <img src="images/li.jpg" />
-               <div class="cover">
-                <p class="text">
-                        陈漫（ChenMan），中国时尚摄影师、视觉艺术家，毕业于中央美术学院。2003年，陈漫开始为《青年视觉》杂志拍摄封面；之后，凭借一系列为《青年视觉》拍摄的作品，在时尚圈崭露头角。2011年4月23日，在北京今日美术馆推出个人摄影装置展；11月，“陈漫视觉艺术展”在上海当代艺术馆展出。
-                </p>
-               </div>
-           </div>
-    
+           <div class="section">
+                        <div class="photo"><img src="images/li.jpg" />
+                        </div>
+                        <div class="rsp"></div>
+                        <div class="text">
+                            <h3>李东田作品</h3>
+                        </div>
+                <div class="clear"></div>
+            </div>  
+
+            <div id="login">
+                <div class="new">新人注册有礼</div>
+            <form >
+                 <input type="text" placeholder="姓名" class="name" id="username">
+                 <span id="Ospan">输入正确姓名：例如(张三)</span>
+                 <br>
+                 <input type="text" placeholder="电话" class="name" id="tel">
+                 <span id="Ospan2">只能为纯数字</span>
+                 <br>
+     
+                 <input type="text" placeholder="输入验证码" class="tel">
+                 <button class="code">获取验证码</button><br>
+                 <input type="submit" value="提交" class="submit">
+     
+            </form>
             </div>
+            <h4>BOJUE&nbsp;&nbsp;PHOTOGAVPHY</h4>
+            <h4>铂爵旅拍,连续五年连续销量领先</h4>
+            <h4>点击直接拨打&nbsp;&nbsp;客服电话</h4s>
+            <h1>400-6677-500</h1>
     </main> 
-
-
-
-</script>
+    <footer>
+        <ul id="footer">
+            <li>
+                <a href="index.html"><img src="./images/tel.png"/> 
+                    <span>咨询首页</span>
+                </a>  
+            </li>
+            <li>
+               <a href="time.html"><img src="./images/face.png"/> 
+                <span>王牌推荐</span>
+               </a>
+            </li>
+            <li>
+               <a href="youhui.html"><img src="./images/youhui.png"/> 
+                <span>限时优惠</span>
+               </a> 
+            </li>
+        </ul>
+    </footer>
+    <script type="text/javascript">
+       
+            $(function(){
+                $(".section .rsp").hide();
+            });
+            $(".section	.photo").mouseover(function(){
+                $(".section .rsp").fadeIn();
+                $(".section .text").stop().animate({left:'0'}, {duration: 500});
+            });
+        
+       
+    </script>
 </body>
 </html>

@@ -1,1 +1,4 @@
-header .header img{margin-left: 2rem;width:1.5rem;display: inline-block;margin-top:1.2rem; }
+header .header img{margin-left: 2rem;width:1.5rem;display: inline-block;margin-top:1.2rem;}
+main #banner{width: 100%;height: auto;}
+main #banner img{width: 100%;height:16rem;margin-top: 4rem;}
+main #content{height:500px;}
