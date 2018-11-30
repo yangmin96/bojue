@@ -1,4 +1,12 @@
 header .header img{margin-left: 2rem;width:1.5rem;display: inline-block;margin-top:1.2rem;}
 main #banner{width: 100%;height: auto;}
 main #banner img{width: 100%;height:16rem;margin-top: 4rem;}
-main #content{height:500px;}
+main #content{width: 100%;height: auto;}
+main #content .speak{width: 95%;height:300px;margin-left: 2.5%;}
+.speak .welcome{width: 64%;height: 2rem;background: #ddd;font-size: 0.9rem;text-align: center;margin-left:18%;line-height: 2rem; margin-top: 1rem;}
+#content .speak #da{width: 100%;height:11rem;margin-top: 1rem;display: none;}
+#content .speak .lg{width: 15%;height:4rem;float: left;border-radius: 50%;}
+.speak .lg img{width: 100%;border-radius: 50%;}
+.speak #da .xiao{float:right;width: 80%;height: 100%;background:#ddd;border-radius: 2%;}
+#da .xiao p span{color: red;}
+#da .xiao p{margin-left: 0.2rem;}
